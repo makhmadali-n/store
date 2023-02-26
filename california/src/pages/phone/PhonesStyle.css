@@ -1,0 +1,23 @@
+.search-input {
+    border: 1px solid #dce5e2;
+    width: 300px;
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.555);
+  }
+
+
+.rearch-phons__block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-top: 55px;
+    position: relative;
+}
+
+.bs-Search {
+    position: absolute;
+    top: 5px;
+    right: 7px;
+}

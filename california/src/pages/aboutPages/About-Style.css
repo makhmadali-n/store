@@ -1,0 +1,130 @@
+.hero-about__title {
+  margin: 50px 0px 30px 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper-about__phone {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.description-wrapper {
+  width: 530px;
+  height: 580px;
+}
+
+.price-title {
+  font-size: 32px;
+  padding-right: 15px;
+}
+
+.price-block {
+  font-size: 32px;
+}
+
+.operating-system {
+  color: #969696;
+  padding-right: 10px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.system {
+  font-size: 19px;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper-ul__li {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-button {
+  max-width: 1225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.back-catalog {
+  width: 135px;
+  height: 35px;
+  border: 1px solid #dce5e2;
+  background: #dce5e2;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 21px;
+}
+
+.back-catalog:hover {
+  background: #c0c9c6;
+}
+
+.back-catalog__icon {
+  font-size: 20px;
+}
+
+/* ====================================== */
+
+@media all and (max-width: 992px) {
+  .wrapper-about__phone {
+    flex-wrap: wrap;
+  }
+  .hero-about__title {
+    font-size: 27px;
+  }
+
+  .price-block {
+    font-size: 26px;
+  }
+
+  .wrapper-ul__li {
+    height: 400px;
+  }
+
+  .description-wrapper {
+    height: 445px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .hero-about__title {
+    font-size: 20px;
+    margin: 30px 5px 10px 5px;
+    font-family: "Inter", sans-serif;
+  }
+
+  .description-wrapper {
+    padding: 0px 5px 0px 5px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .operating-system {
+    font-size: 14px;
+  }
+
+  .system {
+    font-size: 14px;
+  }
+
+  .price-block {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .hero-about__title {
+    font-size: 17px;
+  }
+}

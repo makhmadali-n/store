@@ -1,0 +1,33 @@
+.hero-slider {
+  width: 100%;
+  height: 550px;
+  border-radius: 32px;
+}
+
+.swiper-slide {
+  margin-top: 30px;
+}
+
+.swiper-button-next {
+  color: #dce5e2 !important;
+}
+
+.swiper-button-prev {
+  color: #dce5e2 !important;
+}
+
+.swiper-pagination-bullet {
+  color: #dce5e2 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #dce5e2 !important;
+}
+
+
+@media all and (max-width: 768px) {
+  .hero-slider {
+    height: 390px;
+  }
+  
+}

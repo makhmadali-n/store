@@ -1,0 +1,110 @@
+.wrapper-phone {
+  display: flex;
+  margin-top: 40px;
+}
+
+.catalog {
+  width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+
+/* ----- Card ------ */
+
+.phone-card {
+  width: 280px;
+  height: 400px;
+  border: 1px solid #dce5e2;
+  padding: 3px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phone-card:hover {
+  box-shadow: 0px 5px 20px 5px#dce5e2;
+  transition: all 0.5s ease;
+  /* transform: scale(1.1); */
+}
+
+.block-img__phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-card-img {
+  width: 180px;
+  height: 225px;
+  object-fit: contain;
+}
+
+.phone-name {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 10px;
+}
+
+.phone-discreption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.footer-phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.phone-price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.basket-btn__card {
+  border-radius: 5px;
+}
+
+.basket-svg__card {
+  color: #000000;
+}
+
+.basket-svg__card:hover {
+  color: red;
+}
+
+/* ================================== */
+
+@media all and (max-width: 992px) {
+  .catalog {
+    margin: 30px 5px 0px 5px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .phone-card {
+    width: 250px;
+  }
+}
+
+@media all and (max-width: 525px) {
+  .catalog {
+    justify-content: center;
+    align-content: center;
+  }
+}

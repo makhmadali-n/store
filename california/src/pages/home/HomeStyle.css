@@ -1,0 +1,405 @@
+.content-title {
+  margin-top: 75px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-title {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+.main-subtitle {
+  max-width: 600px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.categories-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapp {
+  max-width: 100%;
+  height: 710px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ------------------------- */
+.laptop {
+  max-width: 480px;
+  height: 460px;
+  border: 1px solid #dce5e2;
+  box-shadow: 3px 3px 30px rgba(50, 50, 50, 0.5);
+  margin: 0px 15px 0px 15px;
+}
+
+.laptop:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.laptops-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.laptop-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: end;
+  color: #000000;
+}
+
+.laptop-title {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: end;
+  color: #000000;
+}
+/* --------------------------- */
+
+.watch {
+  max-width: 480px;
+  height: 218px;
+  border: 1px solid #dce5e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 3px 3px 30px rgba(50, 50, 50, 0.5);
+  margin: 0px 15px 0px 15px;
+}
+
+.watch:hover {
+  transform: scale(1.1);
+  transition: all 0.35s;
+}
+
+.watch-img {
+  max-width: 64.5%;
+  height: 218px;
+}
+
+.watch-title {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: end;
+  color: #000000;
+  z-index: 5;
+}
+
+.watch-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: end;
+  color: #000000;
+}
+
+/* ------------------------------------ */
+
+.phones {
+  max-width: 350px;
+  height: 700px;
+  border: 1px solid #dce5e2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 3px 3px 30px rgba(50, 50, 50, 0.5);
+  margin: 0px 15px 0px 15px;
+}
+
+.phones:hover {
+  transform: scale(1.1);
+  transition: all 0.35s;
+}
+
+.phone-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.phone-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 45px;
+}
+
+.phone-title {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  text-align: center;
+}
+
+/* -------------------------- */
+
+.tablet {
+  max-width: 350px;
+  height: 700px;
+  border: 1px solid #dce5e2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 3px 3px 30px rgba(50, 50, 50, 0.5);
+  margin: 0px 15px 0px 15px;
+}
+
+.tablet:hover {
+  transform: scale(1.1);
+  transition: all 0.35s;
+}
+
+.tablet-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 45px;
+}
+
+.tablet-title {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.tablet-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------------------- */
+
+.never-wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.never {
+  width: 90%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #dce5e2;
+  border-radius: 16px;
+}
+
+.never-h1 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  padding-top: 47px;
+}
+
+.never-span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.never-img {
+  width: 233px;
+  height: 200px;
+  margin-top: 14px;
+}
+
+.block-input {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.never-input {
+  width: 500px;
+  height: 46px;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+.never-btn {
+  width: 100px;
+  height: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  background: #000000;
+  border-radius: 0px 200px 200px 0px;
+}
+
+/* ========================================== */
+
+@media all and (max-width: 768px) {
+  .laptop {
+    height: 400px;
+  }
+
+  .watch {
+    justify-content: center;
+  }
+
+  .phones {
+    height: 630px;
+  }
+
+  .tablet {
+    height: 630px;
+  }
+
+  .wrapp {
+    height: 642px;
+  }
+
+  .main-title {
+    font-size: 34px;
+  }
+
+  .wrapper-card {
+    flex-wrap: wrap;
+  }
+
+  .watch-title {
+    font-size: 26px;
+  }
+
+  .laptop-title {
+    font-size: 26px;
+  }
+
+  .phone-title {
+    font-size: 26px;
+  }
+
+  .tablet-title {
+    font-size: 26px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .main-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .main-subtitle {
+    text-align: center;
+  }
+
+  .categories-wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .laptops-img {
+    max-width: 78%;
+  }
+
+  .watch {
+    margin-top: 30px;
+  }
+
+  .phones {
+    height: 500px;
+    max-width: 250px;
+    margin: 40px 15px 0px 0px;
+    justify-content: space-between;
+  }
+
+  .tablet {
+    height: 500px;
+    max-width: 250px;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .card {
+    width: 250px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .never-h1 {
+    font-size: 32px;
+  }
+
+  .never-span {
+    text-align: center;
+  }
+
+  .never-wrapp {
+    margin-top: 40px;
+  }
+}
+
+@media all and (max-width: 530px) {
+  .wrapper-card {
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 518px) {
+  .phones {
+    margin: 40px 0px 0px 0px;
+  }
+}
+
+

@@ -1,0 +1,51 @@
+.paymentForm {
+  margin-top: 50px;
+}
+
+.form-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 35px;
+  gap: 15px;
+}
+
+.form-input__credit {
+  width: 280px;
+  height: 30px;
+  border: 1px solid #dce5e2;
+  border-radius: 7px;
+}
+
+.block-input__two {
+  width: 285px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expiry-input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #dce5e2;
+  border-radius: 7px;
+}
+
+.cvc-input {
+  width: 75px;
+  height: 30px;
+  border: 1px solid #dce5e2;
+  border-radius: 7px;
+}
+
+.btn-payment__credit {
+  width: 140px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid #dce5e2;
+  border-radius: 7px;
+  background-color: #dce5e2;
+}

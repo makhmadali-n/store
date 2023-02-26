@@ -1,0 +1,55 @@
+.wrapper-card {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0px 5px 0px 5px;
+}
+
+.card {
+  max-width: 280px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #dce5e2;
+  padding: 3px;
+  border-radius: 10px;
+  margin: 0px 10px 20px 0px;
+}
+
+.card-img {
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.card-name {
+  padding-bottom: 10px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.card-discreption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.card-price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.footer-card {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}

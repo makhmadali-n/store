@@ -1,0 +1,74 @@
+.filter-wrapper {
+  width: 250px;
+  border: 1px solid #dce5e2;
+  display: flex;
+  justify-content: center;
+}
+
+.apple-btn {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #dce5e2;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.checkbox-phones {
+  margin-top: 15px;
+}
+
+.icon-apple {
+  font-size: 20px;
+  margin: 6px;
+}
+
+.icon-samsung {
+  font-size: 70px;
+}
+
+.icon-xiaomi {
+  font-size: 15px;
+  margin: 6px;
+  color: red;
+}
+
+.apple {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media all and (max-width: 992px) {
+  .wrapper-phone {
+    flex-wrap: wrap;
+  }
+
+  .filter-wrapper {
+    width: 100%;
+  }
+
+  .apple {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .apple-btn {
+    margin: 5px 5px 5px 5px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .apple-btn {
+    width: 80px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+}

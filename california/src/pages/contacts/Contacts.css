@@ -1,0 +1,48 @@
+.contact-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-title {
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.block-address {
+  padding-left: 25px;
+}
+
+.address-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.address-subtitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.number-tel {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.email {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.block-address {
+  line-height: 35px;
+}
+
+.table {
+  width: 250px;
+  line-height: 25px;
+}
